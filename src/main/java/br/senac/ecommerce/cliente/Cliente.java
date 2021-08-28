@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    
+
     private Integer id;
     @Column(name = "nomeSocial")
     @NotNull
